@@ -271,22 +271,30 @@
         text-align: left;
         font-family: "merriweather-bold";
         font-size: 24px;
-        border-bottom: solid 5px #0fe0bb; }
+        border-bottom: solid 5px #0fe0bb;
+        max-width: 125px;
+        text-align: center; }
       .la-communaute .wrapper-text-21 .w-25 h4 {
         color: #fff;
         font-family: "merriweather-bold";
         font-size: 24px;
-        border-bottom: solid 5px #ffc300; }
+        border-bottom: solid 5px #ffc300;
+        max-width: 135px;
+        text-align: center; }
       .la-communaute .wrapper-text-21 .w-25 h5 {
         color: #fff;
         font-family: "merriweather-bold";
         font-size: 24px;
-        border-bottom: solid 5px #0ec0fc; }
+        border-bottom: solid 5px #0ec0fc;
+        max-width: 170px;
+        text-align: center; }
       .la-communaute .wrapper-text-21 .w-25 h6 {
         color: #fff;
         font-family: "merriweather-bold";
         font-size: 24px;
-        border-bottom: solid 5px #02407f; }
+        border-bottom: solid 5px #02407f;
+        max-width: 160px;
+        text-align: center; }
 
 .app {
   background-image: url(../img/go.png);
@@ -310,14 +318,24 @@
       padding-top: 15px;
       padding-bottom: 25px; }
     .app .wrapper-app .wrapper-app-1 {
-      direction: flex; }
+      display: flex;
+      justify-content: center; }
       .app .wrapper-app .wrapper-app-1 .app-store p {
         font-size: 16px;
         color: #32323c;
-        font-family: "merriwether-regular"; }
+        font-family: "merriwether-regular";
+        padding: 15px 15px;
+        border-radius: 8px;
+        background-color: #f2f5f7;
+        max-width: 320px;
+        margin-right: 25px; }
       .app .wrapper-app .wrapper-app-1 .google-play p {
         font-size: 16px;
         color: #32323c;
-        font-family: "merriwether-regular"; }
+        font-family: "merriwether-regular";
+        padding: 15px 15px;
+        border-radius: 8px;
+        background-color: #f2f5f7;
+        max-width: 320px; }
 
 /*# sourceMappingURL=styleL.css.map */
