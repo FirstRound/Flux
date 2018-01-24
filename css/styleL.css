@@ -11,6 +11,9 @@
   font-family: "Roboto-Regular";
   src: url("../fonts/Roboto-Regular.ttf"); }
 @font-face {
+  font-family: "merriwether-regular";
+  src: url("../fonts/merriwether-regular.ttf"); }
+@font-face {
   font-family: "SF-UI-Display-Regular";
   src: url("../fonts/SF-UI-Display-Regular.ttf"); }
 .flux-logo-top {
@@ -284,5 +287,37 @@
         font-family: "merriweather-bold";
         font-size: 24px;
         border-bottom: solid 5px #02407f; }
+
+.app {
+  background-image: url(../img/go.png);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top -140px center; }
+  .app .wrapper-app {
+    padding: 260px 0px; }
+    .app .wrapper-app h3 {
+      font-size: 36px;
+      color: #fff;
+      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      font-family: "merriweather-bold-italic"; }
+    .app .wrapper-app h4 {
+      font-size: 24px;
+      color: #fff;
+      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 25px; }
+    .app .wrapper-app .wrapper-app-1 {
+      direction: flex; }
+      .app .wrapper-app .wrapper-app-1 .app-store p {
+        font-size: 16px;
+        color: #32323c;
+        font-family: "merriwether-regular"; }
+      .app .wrapper-app .wrapper-app-1 .google-play p {
+        font-size: 16px;
+        color: #32323c;
+        font-family: "merriwether-regular"; }
 
 /*# sourceMappingURL=styleL.css.map */
