@@ -17,7 +17,8 @@
   width: 100%;
   background-color: #f2f5f7; }
   .flux-logo-top .wrapper-logo {
-    display: flex; }
+    display: flex;
+    align-items: center; }
     .flux-logo-top .wrapper-logo .wrapper-logo-img {
       width: 50%; }
     .flux-logo-top .wrapper-logo .wrapper-naw-top {
@@ -44,12 +45,15 @@
         text-transform: uppercase;
         color: #f2f5f7;
         padding: 5px 20px;
-        border-radius: 10px;
+        border-radius: 7px;
         margin: 28px 0; }
 
 .overseas {
-  width: 100%;
-  background-image: url(); }
+  background-image: url(../img/f-s.png);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top -140px center; }
   .overseas .text-1 h3 {
     padding-top: 195px;
     font-family: "merriweather-bold";
@@ -64,10 +68,35 @@
     color: #fff;
     text-align: center;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); }
+  .overseas .text-11 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px; }
+    .overseas .text-11 a {
+      display: block;
+      padding: 10px 30px;
+      border-radius: 3px;
+      background-color: #0fe0bb; }
+      .overseas .text-11 a p {
+        text-transform: uppercase;
+        font-size: 18px;
+        text-align: center;
+        color: #f2f5f7;
+        font-family: "SF-UI-Display-Regular"; }
+  .overseas .text-12 {
+    display: flex;
+    justify-content: center; }
+  .overseas .img-padding {
+    padding-right: 45px;
+    padding-bottom: 75px;
+    padding-top: 350px; }
+
+.img-mar {
+  margin-bottom: 15px; }
 
 .comment {
   width: 100%;
-  background-image: url(); }
+  background-image: url(../img/b-b.png); }
   .comment .wrapper-content {
     padding-bottom: 90px; }
     .comment .wrapper-content h3 {
@@ -98,8 +127,14 @@
         line-height: 1.33;
         padding: 0px 0px 30px 0px; }
 
+.img-block {
+  display: block;
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 15px; }
+
 .why-flux .wrapper-content-2 {
-  padding-bottom: 90px; }
+  padding: 90px 0px; }
   .why-flux .wrapper-content-2 h3 {
     text-align: center; }
   .why-flux .wrapper-content-2 .wrapper-flex-1 {
@@ -124,7 +159,11 @@
 
 .our-commitments {
   width: 100%;
-  background-image: url(); }
+  background-image: url(../img/b-f.png);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top -150px center; }
   .our-commitments .wrapper-commitments {
     padding: 255px 0px; }
     .our-commitments .wrapper-commitments h3 {
@@ -143,13 +182,13 @@
     .our-commitments .wrapper-commitments .learn-more {
       max-width: 200px;
       display: block;
-      border: solid 1px #d8d8d8;
       background-color: #0fe0bb;
       color: #fff;
       text-align: center;
       margin: 0 auto;
       padding: 5px 10px;
-      border-radius: 5px; }
+      border-radius: 5px;
+      text-transform: uppercase; }
 
 .footer-bott {
   background-color: #fff; }
@@ -175,5 +214,75 @@
 
 .they-speak {
   background-color: #f2f5f7; }
+  .they-speak .wrapper-content-4 {
+    padding: 90px 0px; }
+    .they-speak .wrapper-content-4 h3 {
+      font-family: "merriweather-bold-italic";
+      color: #979797;
+      text-align: center;
+      font-size: 36px; }
+    .they-speak .wrapper-content-4 .wrapper-flex-5 {
+      display: flex;
+      flex-wrap: wrap; }
+      .they-speak .wrapper-content-4 .wrapper-flex-5 .wrapper-flex-us {
+        width: 33.3%;
+        padding: 0px 25px; }
+        .they-speak .wrapper-content-4 .wrapper-flex-5 .wrapper-flex-us .content-5 p {
+          font-family: "merriweather-light";
+          line-height: 1.33;
+          color: #979797;
+          font-size: 18px;
+          text-align: center; }
+          .they-speak .wrapper-content-4 .wrapper-flex-5 .wrapper-flex-us .content-5 p.they-speak-p {
+            color: #32323c; }
+
+.la-communaute {
+  background-image: url(../img/back-lol.png);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top -140px center; }
+  .la-communaute h3 {
+    font-family: "merriweather-bold-italic";
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    padding-top: 95px; }
+  .la-communaute .wrapper-text-21 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 445px; }
+    .la-communaute .wrapper-text-21 .w-25 {
+      width: 25%;
+      padding: 0px 10px; }
+      .la-communaute .wrapper-text-21 .w-25 p {
+        color: #fff;
+        font-size: 64px;
+        font-family: "merriweather-light";
+        padding-top: 32px; }
+      .la-communaute .wrapper-text-21 .w-25 h3 {
+        padding-top: 0px;
+        color: #fff;
+        text-align: left;
+        font-family: "merriweather-bold";
+        font-size: 24px;
+        border-bottom: solid 5px #0fe0bb; }
+      .la-communaute .wrapper-text-21 .w-25 h4 {
+        color: #fff;
+        font-family: "merriweather-bold";
+        font-size: 24px;
+        border-bottom: solid 5px #ffc300; }
+      .la-communaute .wrapper-text-21 .w-25 h5 {
+        color: #fff;
+        font-family: "merriweather-bold";
+        font-size: 24px;
+        border-bottom: solid 5px #0ec0fc; }
+      .la-communaute .wrapper-text-21 .w-25 h6 {
+        color: #fff;
+        font-family: "merriweather-bold";
+        font-size: 24px;
+        border-bottom: solid 5px #02407f; }
 
 /*# sourceMappingURL=styleL.css.map */
