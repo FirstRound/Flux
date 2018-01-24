@@ -166,3 +166,70 @@
         }
     }
 }
+.our-commitments{
+    width: 100%;
+    background-image: url();
+    .wrapper-commitments{
+        padding: 255px 0px;
+        h3{
+            font-family: "merriweather-bold-italic";
+            font-size: 36px;
+            text-align: center;
+            text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+            color: #fff;
+        }
+        p{
+            font-family: "merriweather-light";
+            font-size: 24px;
+            text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+            color: #fff;
+            text-align: center;
+            padding: 15px 0px;
+        }
+        .learn-more{
+            max-width: 200px;
+            display: block;
+            border: solid 1px #d8d8d8;
+            background-color: #0fe0bb;
+            color: #fff;
+            text-align: center;
+            margin: 0 auto;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+     }
+}
+.footer-bott{
+    background-color: #fff;
+    .wrapper-flex-2{
+        padding: 50px 0px;
+        display: flex;
+        flex-wrap: wrap;
+    .wrapper-content-3{
+        width: 25%;
+        padding: 0px 15px;
+        .wrapper-w-p{
+            h3{
+                font-family: "merriweather-bold";
+                color: #32323c;
+                font-size: 21px;
+            }
+            
+            p{
+                padding-top: 10px;
+                font-family: "merriweather-light";
+                font-size: 18px;
+                color: #0fe0bb;
+                text-decoration: underline;
+            }
+            flex-4{
+                display: flex;
+            }
+        }
+    }
+}
+}
+
+.they-speak{
+    background-color: #f2f5f7;
+}

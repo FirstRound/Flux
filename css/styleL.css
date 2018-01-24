@@ -122,4 +122,58 @@
       line-height: 1.5;
       color: #32323c; }
 
+.our-commitments {
+  width: 100%;
+  background-image: url(); }
+  .our-commitments .wrapper-commitments {
+    padding: 255px 0px; }
+    .our-commitments .wrapper-commitments h3 {
+      font-family: "merriweather-bold-italic";
+      font-size: 36px;
+      text-align: center;
+      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+      color: #fff; }
+    .our-commitments .wrapper-commitments p {
+      font-family: "merriweather-light";
+      font-size: 24px;
+      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+      color: #fff;
+      text-align: center;
+      padding: 15px 0px; }
+    .our-commitments .wrapper-commitments .learn-more {
+      max-width: 200px;
+      display: block;
+      border: solid 1px #d8d8d8;
+      background-color: #0fe0bb;
+      color: #fff;
+      text-align: center;
+      margin: 0 auto;
+      padding: 5px 10px;
+      border-radius: 5px; }
+
+.footer-bott {
+  background-color: #fff; }
+  .footer-bott .wrapper-flex-2 {
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap; }
+    .footer-bott .wrapper-flex-2 .wrapper-content-3 {
+      width: 25%;
+      padding: 0px 15px; }
+      .footer-bott .wrapper-flex-2 .wrapper-content-3 .wrapper-w-p h3 {
+        font-family: "merriweather-bold";
+        color: #32323c;
+        font-size: 21px; }
+      .footer-bott .wrapper-flex-2 .wrapper-content-3 .wrapper-w-p p {
+        padding-top: 10px;
+        font-family: "merriweather-light";
+        font-size: 18px;
+        color: #0fe0bb;
+        text-decoration: underline; }
+      .footer-bott .wrapper-flex-2 .wrapper-content-3 .wrapper-w-p flex-4 {
+        display: flex; }
+
+.they-speak {
+  background-color: #f2f5f7; }
+
 /*# sourceMappingURL=styleL.css.map */
