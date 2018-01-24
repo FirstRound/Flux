@@ -47,4 +47,31 @@
         border-radius: 10px;
         margin: 28px 0; }
 
+.overseas {
+  width: 100%;
+  background-image: url(); }
+  .overseas .text-1 h3 {
+    padding-top: 195px;
+    font-family: "merriweather-bold";
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); }
+  .overseas .text-1 p {
+    padding-top: 8px;
+    font-family: "merriweather-light";
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); }
+
+.comment {
+  width: 100%;
+  background-image: url(); }
+  .comment .wrapper-content h3 {
+    font-size: 36px;
+    font-family: "merriweather-bold-italic";
+    color: #f2f5f7;
+    text-align: center; }
+
 /*# sourceMappingURL=styleL.css.map */
