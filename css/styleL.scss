@@ -90,10 +90,35 @@
     background-image: url();
     .wrapper-content{
         h3{
+            padding-top: 95px;
             font-size: 36px;
             font-family: "merriweather-bold-italic";
             color: #f2f5f7;
             text-align: center;
+        }
+        .wrapper-flex-1{
+            display: flex;
+            justify-content:center;
+            flex-wrap: wrap;
+            
+            .w-33-p{
+                width: 33.3%;
+                padding: 0px 30px;
+                .flex-content-text-1{
+                    h4{
+                        font-family: "merriweather-bold";
+                        font-size: 18px;
+                        color: #f2f5f7;
+                        line-height: 1.33;
+                    }
+                    p{             
+                        font-family: "merriweather-bold";
+                        font-size: 18px;
+                        color: #fff;
+                        line-height: 1.33;
+                    }
+                }
+            }
         }
     }
 }

@@ -69,9 +69,27 @@
   width: 100%;
   background-image: url(); }
   .comment .wrapper-content h3 {
+    padding-top: 95px;
     font-size: 36px;
     font-family: "merriweather-bold-italic";
     color: #f2f5f7;
     text-align: center; }
+  .comment .wrapper-content .wrapper-flex-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .comment .wrapper-content .wrapper-flex-1 .w-33-p {
+      width: 33.3%;
+      padding: 0px 30px; }
+      .comment .wrapper-content .wrapper-flex-1 .w-33-p .flex-content-text-1 h4 {
+        font-family: "merriweather-bold";
+        font-size: 18px;
+        color: #f2f5f7;
+        line-height: 1.33; }
+      .comment .wrapper-content .wrapper-flex-1 .w-33-p .flex-content-text-1 p {
+        font-family: "merriweather-bold";
+        font-size: 18px;
+        color: #fff;
+        line-height: 1.33; }
 
 /*# sourceMappingURL=styleL.css.map */
