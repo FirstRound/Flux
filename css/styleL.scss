@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "merriweather-bold";
+    src: url("../fonts/merriweather-bold.ttf");
+}
+@font-face {
+    font-family: "merriweather-bold-italic";
+    src: url("../fonts/merriweather-bold-italic.ttf");
+}
+@font-face {
+    font-family: "merriweather-light";
+    src: url("../fonts/merriweather-light.ttf");
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "SF-UI-Display-Regular";
+    src: url("../fonts/SF-UI-Display-Regular.ttf");
+}
+
+.flux-logo-top{
+    width: 100%;
+    background-color: #f2f5f7;
+    .wrapper-logo{
+        display: flex;
+        .wrapper-logo-img{
+            width: 50%;
+        }
+        .wrapper-naw-top{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            width: 50%;
+            
+            .leng{   
+            width: 32px;
+            height: 32px;
+            background-position: center;
+            background-size: cover;
+            border-radius: 50%;
+            }
+            
+                p{
+                    font-family: "merriweather-light";
+                    font-size: 18px;
+                    color: #0fe0bb;
+                    text-decoration: underline;
+                }
+            
+            .wrapper-a{
+                font-size: 18px;
+                border: solid 1px #f2f5f7;
+                background-color: #0fe0bb;
+                font-family: "SF-UI-Display-Regular";
+                text-transform: uppercase;
+                color: #f2f5f7;
+                padding: 5px 20px;
+                border-radius: 10px;
+                margin: 28px 0;
+            }
+        }
+        
+    }
+}
