@@ -20,26 +20,40 @@
   width: 100%;
   background-color: #f2f5f7; }
   .flux-logo-top .wrapper-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center; }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
     .flux-logo-top .wrapper-logo .wrapper-logo-img {
       width: 50%; }
-    .flux-logo-top .wrapper-logo .wrapper-naw-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    .flux-logo-top .wrapper-logo .ham-menu {
       width: 50%; }
+    .flux-logo-top .wrapper-logo .wrapper-naw-top {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
       .flux-logo-top .wrapper-logo .wrapper-naw-top .leng {
         width: 32px;
         height: 32px;
         background-position: center;
         background-size: cover;
         border-radius: 50%; }
-      .flux-logo-top .wrapper-logo .wrapper-naw-top p {
+      .flux-logo-top .wrapper-logo .wrapper-naw-top a {
         font-family: "merriweather-light";
         font-size: 18px;
         color: #0fe0bb;
-        text-decoration: underline; }
+        text-decoration: underline;
+        display: block; }
+        .flux-logo-top .wrapper-logo .wrapper-naw-top a:hover {
+          text-decoration: none; }
       .flux-logo-top .wrapper-logo .wrapper-naw-top .wrapper-a {
         font-size: 18px;
         border: solid 1px #f2f5f7;
@@ -47,9 +61,79 @@
         font-family: "SF-UI-Display-Regular";
         text-transform: uppercase;
         color: #f2f5f7;
+        text-decoration: none;
         padding: 5px 20px;
         border-radius: 7px;
         margin: 28px 0; }
+
+.text-11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .text-11 .inp-1 {
+    width: 100%;
+    max-width: 477px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .text-11 .inp-1 input {
+      display: block;
+      width: 100%;
+      border: 1px solid #fff;
+      border-radius: 4px;
+      background: #fff;
+      padding: 10px 15px;
+      margin-right: 20px;
+      outline: none;
+      font-family: "SF-UI-Display-Regular"; }
+      .text-11 .inp-1 input:focus {
+        border-color: #0fe0bb; }
+  .text-11 .inp-2 {
+    width: 100%;
+    max-width: 115px;
+    padding-right: 20px;
+    position: relative; }
+    .text-11 .inp-2 span {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 4px;
+      color: #0fe0bb;
+      font-size: 30px;
+      font-family: "SF-UI-Display-Regular"; }
+    .text-11 .inp-2 input {
+      display: block;
+      width: 100%;
+      border: 1px solid #fff;
+      border-radius: 4px;
+      background: #fff;
+      padding: 10px 15px 10px 25px;
+      margin-bottom: 15px;
+      outline: none;
+      font-family: "SF-UI-Display-Regular"; }
+      .text-11 .inp-2 input:last-child {
+        margin-bottom: 0; }
+      .text-11 .inp-2 input:focus {
+        border-color: #0fe0bb; }
+  .text-11 button {
+    border: none;
+    display: block;
+    padding: 10px 30px;
+    border-radius: 3px;
+    background-color: #0fe0bb;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    color: #f2f5f7;
+    font-family: "SF-UI-Display-Regular";
+    outline: none; }
 
 .overseas {
   background-image: url(../img/f-s.png);
@@ -57,6 +141,15 @@
   position: relative;
   background-repeat: no-repeat;
   background-position: center center; }
+  .overseas:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.24); }
   .overseas .text-1 h3 {
     padding-top: 195px;
     font-family: "merriweather-bold";
@@ -71,25 +164,16 @@
     color: #fff;
     text-align: center;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); }
-  .overseas .text-11 {
-    display: flex;
-    justify-content: center;
-    padding-top: 40px; }
-    .overseas .text-11 a {
-      display: block;
-      padding: 10px 30px;
-      border-radius: 3px;
-      background-color: #0fe0bb; }
-      .overseas .text-11 a p {
-        text-transform: uppercase;
-        font-size: 18px;
-        text-align: center;
-        color: #f2f5f7;
-        font-family: "SF-UI-Display-Regular"; }
   .overseas .text-12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 200px;
     padding-bottom: 70px; }
     .overseas .text-12 img:first-child {
@@ -99,6 +183,18 @@
 
 .img-mar {
   margin-bottom: 15px; }
+
+.flex-content-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .flex-content-1 .flex-content-img-1 {
+    max-width: 65px;
+    width: 100%; }
 
 .comment {
   width: 100%;
@@ -112,26 +208,43 @@
       color: #f2f5f7;
       text-align: center; }
     .comment .wrapper-content .wrapper-flex-1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center;
-      flex-wrap: wrap; }
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
       .comment .wrapper-content .wrapper-flex-1 .w-33-p {
         width: 33.3%;
-        padding: 0px 30px; }
+        padding: 0px 15px; }
       .comment .wrapper-content .wrapper-flex-1 .w-33-p:last-child {
         border-radius: 4px;
-        border: solid 1px rgba(15, 224, 187, 0.5); }
-      .comment .wrapper-content .wrapper-flex-1 .flex-content-text-1 h4 {
-        font-family: "merriweather-bold";
-        font-size: 18px;
-        color: #f2f5f7;
-        line-height: 1.33; }
-      .comment .wrapper-content .wrapper-flex-1 .flex-content-text-1 p {
-        font-family: "merriweather-light";
-        font-size: 18px;
-        color: #fff;
-        line-height: 1.33;
-        padding: 0px 0px 30px 0px; }
+        border: solid 1px rgba(15, 224, 187, 0.5);
+        width: 422px;
+        margin-bottom: 30px; }
+        .comment .wrapper-content .wrapper-flex-1 .w-33-p:last-child .flex-content-1 {
+          margin-bottom: 0;
+          padding-top: 25px;
+          padding-bottom: 25px; }
+        .comment .wrapper-content .wrapper-flex-1 .w-33-p:last-child flex-content-img-1 {
+          max-width: 79px; }
+      .comment .wrapper-content .wrapper-flex-1 .flex-content-text-1 {
+        padding-left: 15px; }
+        .comment .wrapper-content .wrapper-flex-1 .flex-content-text-1 h4 {
+          font-family: "merriweather-light";
+          font-size: 18px;
+          color: #f2f5f7;
+          line-height: 1.33; }
+        .comment .wrapper-content .wrapper-flex-1 .flex-content-text-1 p {
+          font-family: "merriweather-bold";
+          font-size: 18px;
+          color: #fff;
+          line-height: 1.33; }
 
 .img-block {
   display: block;
@@ -139,37 +252,47 @@
   padding-top: 32px;
   padding-bottom: 15px; }
 
+.why-flux .flex-content-1 {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
 .why-flux .wrapper-content-2 {
   padding: 90px 0px; }
   .why-flux .wrapper-content-2 h3 {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 30px; }
   .why-flux .wrapper-content-2 .wrapper-flex-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
     .why-flux .wrapper-content-2 .wrapper-flex-1 .w-33-p {
       width: 33.3%;
       padding: 0px 25px; }
-    .why-flux .wrapper-content-2 .wrapper-flex-1 .flex-content-text-2 h4 {
-      padding-top: 35px;
-      padding-bottom: 5px;
-      font-family: "merriweather-bold";
-      font-size: 18px;
-      line-height: 1.5;
-      color: #32323c; }
-    .why-flux .wrapper-content-2 .wrapper-flex-1 .flex-content-text-2 p {
-      font-family: "merriweather-light";
-      font-size: 16px;
-      line-height: 1.5;
-      color: #32323c; }
+    .why-flux .wrapper-content-2 .wrapper-flex-1 .flex-content-text-2 {
+      padding-left: 15px; }
+      .why-flux .wrapper-content-2 .wrapper-flex-1 .flex-content-text-2 h4 {
+        padding-bottom: 5px;
+        font-family: "merriweather-bold";
+        font-size: 18px;
+        line-height: 1.5;
+        color: #32323c; }
+      .why-flux .wrapper-content-2 .wrapper-flex-1 .flex-content-text-2 p {
+        font-family: "merriweather-light";
+        font-size: 16px;
+        line-height: 1.5;
+        color: #32323c; }
 
 .our-commitments {
   width: 100%;
   background-image: url(../img/b-f.png);
   background-size: cover;
   position: relative;
-  background-repeat: no-repeat;
-  background-position: top -150px center; }
+  background-position: center; }
   .our-commitments .wrapper-commitments {
     padding: 255px 0px; }
     .our-commitments .wrapper-commitments h3 {
@@ -192,7 +315,7 @@
       color: #fff;
       text-align: center;
       margin: 0 auto;
-      padding: 5px 10px;
+      padding: 10px;
       border-radius: 5px;
       text-transform: uppercase; }
 
@@ -200,8 +323,11 @@
   background-color: #fff; }
   .footer-bott .wrapper-flex-2 {
     padding: 50px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
     .footer-bott .wrapper-flex-2 .wrapper-content-3 {
       width: 25%;
       padding: 0px 15px; }
@@ -216,6 +342,8 @@
         color: #0fe0bb;
         text-decoration: underline; }
       .footer-bott .wrapper-flex-2 .wrapper-content-3 .wrapper-w-p flex-4 {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex; }
 
 .they-speak {
@@ -228,8 +356,11 @@
       text-align: center;
       font-size: 36px; }
     .they-speak .wrapper-content-4 .wrapper-flex-5 {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-wrap: wrap; }
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
       .they-speak .wrapper-content-4 .wrapper-flex-5 .wrapper-flex-us {
         width: 33.3%;
         padding: 0px 25px; }
@@ -246,8 +377,7 @@
   background-image: url(../img/back-lol.png);
   background-size: cover;
   position: relative;
-  background-repeat: no-repeat;
-  background-position: top -140px center; }
+  background-position: center; }
   .la-communaute h3 {
     font-family: "merriweather-bold-italic";
     font-size: 36px;
@@ -256,13 +386,28 @@
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     padding-top: 95px; }
   .la-communaute .wrapper-text-21 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 445px; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 125px; }
     .la-communaute .wrapper-text-21 .w-25 {
       width: 25%;
-      padding: 0px 10px; }
+      padding: 0px 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
       .la-communaute .wrapper-text-21 .w-25 p {
         color: #fff;
         font-size: 64px;
@@ -275,36 +420,31 @@
         font-family: "merriweather-bold";
         font-size: 24px;
         border-bottom: solid 5px #0fe0bb;
-        max-width: 125px;
         text-align: center; }
       .la-communaute .wrapper-text-21 .w-25 h4 {
         color: #fff;
         font-family: "merriweather-bold";
         font-size: 24px;
         border-bottom: solid 5px #ffc300;
-        max-width: 135px;
         text-align: center; }
       .la-communaute .wrapper-text-21 .w-25 h5 {
         color: #fff;
         font-family: "merriweather-bold";
         font-size: 24px;
         border-bottom: solid 5px #0ec0fc;
-        max-width: 170px;
         text-align: center; }
       .la-communaute .wrapper-text-21 .w-25 h6 {
         color: #fff;
         font-family: "merriweather-bold";
         font-size: 24px;
         border-bottom: solid 5px #02407f;
-        max-width: 160px;
         text-align: center; }
 
 .app {
   background-image: url(../img/go.png);
   background-size: cover;
   position: relative;
-  background-repeat: no-repeat;
-  background-position: top -140px center; }
+  background-position: center; }
   .app .wrapper-app {
     padding: 260px 0px; }
     .app .wrapper-app h3 {
@@ -321,8 +461,12 @@
       padding-top: 15px;
       padding-bottom: 25px; }
     .app .wrapper-app .wrapper-app-1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center; }
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
       .app .wrapper-app .wrapper-app-1 .my-store a {
         background-color: #f2f5f7;
         font-size: 16px;
@@ -343,5 +487,18 @@
         background-image: url(../img/apple.png); }
       .app .wrapper-app .wrapper-app-1 .my-store.st-2 a {
         background-image: url(../img/googleplay.png); }
+
+.overseas.for-positin-cont .text-12 {
+  padding-top: 64px;
+  padding-bottom: 200px; }
+
+.wrapper-flex-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .wrapper-flex-4 a {
+    display: block;
+    width: 25%;
+    padding: 0 12px; }
 
 /*# sourceMappingURL=styleL.css.map */

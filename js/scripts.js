@@ -55,4 +55,31 @@ $(document).ready(function () {
 
     
     
+    
+    
+    //открытие фигни
+    
+    
+    
+    $('.js-opening').click(function(e){
+        e.preventDefault();
+        
+        $('.open-block').slideDown(600);
+        $('body, html').animate({
+            scrollTop: $('.open-block').offset().top
+        }, 700);
+        return
+        
+        
+        
+    });
+    
+    
+    
+    
+    
+    
+    
+    
+    
 });

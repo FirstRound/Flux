@@ -1,3 +1,197 @@
+@media (max-width: 1199px) {
+  .flux-logo-top .wrapper-logo .wrapper-logo-img {
+    width: auto; }
 
+  .flux-logo-top .wrapper-logo {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+  .flux-logo-top .wrapper-logo .wrapper-naw-top {
+    width: auto; }
+
+  .flux-logo-top .wrapper-logo .wrapper-naw-top a {
+    padding-right: 16px; }
+
+  .flux-logo-top .wrapper-logo .wrapper-naw-top .leng {
+    margin-right: 16px; }
+
+  .why-flux .wrapper-content-2 .wrapper-flex-1 .w-33-p {
+    padding: 0px 15px; }
+
+  .why-flux .wrapper-content-2 .wrapper-flex-1 .flex-content-text-2 h4 {
+    font-size: 16px; }
+
+  .wrapper-flex-4 a {
+    padding: 0 7px; }
+
+  .flux-logo-top .wrapper-logo .ham-menu {
+    width: auto; } }
+@media (max-width: 991px) {
+  .overseas .text-1 h3 {
+    padding-top: 100px; }
+
+  .overseas .text-12 {
+    padding-top: 70px; }
+
+  .comment .wrapper-content .wrapper-flex-1 .w-33-p {
+    width: 50%; }
+
+  .comment .wrapper-content h3 {
+    padding-top: 75px;
+    margin-bottom: 30px; }
+
+  .why-flux .wrapper-content-2 .wrapper-flex-1 .w-33-p {
+    width: 50%; }
+
+  .some-slider h5 {
+    font-size: 24px; }
+
+  .app .wrapper-app {
+    padding: 70px 0px; }
+
+  .our-commitments .wrapper-commitments {
+    padding: 70px 0px; }
+
+  .our-commitments .wrapper-commitments p {
+    font-size: 20px; }
+
+  .overseas.for-positin-cont .text-12 {
+    padding-bottom: 70px; }
+
+  .they-speak .wrapper-content-4 .wrapper-flex-5 .wrapper-flex-us {
+    width: 100%; }
+
+  .footer-bott .wrapper-flex-2 .wrapper-content-3 .wrapper-w-p p {
+    font-size: 14px; }
+
+  .footer-bott .wrapper-flex-2 .wrapper-content-3 .wrapper-w-p h3 {
+    font-size: 17px;
+    margin-bottom: 15px; }
+
+  .wrapper-flex-4 a {
+    padding: 0 3px; } }
+@media (max-width: 767px) {
+  .flux-logo-top .wrapper-logo {
+    display: block; }
+
+  .flux-logo-top .wrapper-logo .wrapper-logo-img {
+    padding: 7px 0; }
+
+  .flux-logo-top .wrapper-logo .wrapper-naw-top {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+
+  .text-11 {
+    display: block; }
+
+  .sec-lvl-1 {
+    display: none; }
+
+  .la-communaute .wrapper-text-21 {
+    display: block; }
+
+  .la-communaute .wrapper-text-21 .w-25 {
+    width: 100%; }
+
+  .app .wrapper-app .wrapper-app-1 {
+    display: block; }
+
+  .app .wrapper-app .wrapper-app-1 .my-store a {
+    width: 290px; }
+
+  .text-11 .inp-1 input {
+    margin-right: 0;
+    margin-bottom: 15px; }
+
+  .text-11 .inp-1 {
+    display: block; }
+
+  .text-11 .inp-2 {
+    margin: 0 auto 15px auto;
+    padding: 0; }
+
+  .text-11 button {
+    margin: 0 auto; }
+
+  .overseas .text-1 h3 {
+    padding-top: 40px;
+    font-size: 28px; }
+
+  .overseas .text-1 p {
+    font-size: 16px; }
+
+  .navbar-toggle {
+    border: none;
+    top: -10px; }
+
+  .flux-logo-top .wrapper-logo .wrapper-naw-top {
+    display: block; }
+
+  .flux-logo-top .wrapper-logo .wrapper-naw-top a {
+    margin-bottom: 10px; }
+
+  .flux-logo-top .wrapper-logo .wrapper-naw-top .leng {
+    margin-bottom: 15px; }
+
+  .flux-logo-top .wrapper-logo .wrapper-naw-top .wrapper-a {
+    margin: 0;
+    margin-bottom: 10px; }
+
+  .comment .wrapper-content .wrapper-flex-1 .w-33-p {
+    width: 100%; }
+
+  .why-flux .wrapper-content-2 .wrapper-flex-1 .w-33-p {
+    width: 100%; }
+
+  .why-flux .wrapper-content-2 {
+    padding: 40px 0; }
+
+  .la-communaute .wrapper-text-21 .w-25 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  .some-slider .slider-wrapp .slide .sec-block {
+    display: block; }
+
+  .some-slider .slider-wrapp .slide .sec-block .left-side {
+    width: 100%; }
+
+  .some-slider .slider-wrapp .slide .sec-block .right-side {
+    width: 100%; }
+
+  .app .wrapper-app .wrapper-app-1 .my-store.st-1 a {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-size: 14px; }
+
+  .app .wrapper-app .wrapper-app-1 .my-store:last-child a {
+    margin: 0 auto; }
+
+  .app .wrapper-app h4 {
+    font-size: 16px; }
+
+  .footer-bott .wrapper-flex-2 .wrapper-content-3 {
+    width: 50%; }
+
+  .footer-bott .wrapper-flex-2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+
+  .footer-bott .wrapper-flex-2 .wrapper-content-3 {
+    margin-bottom: 33px; }
+
+  .footer-bott .wrapper-flex-2 {
+    padding-bottom: 0; }
+
+  .footer-bott .wrapper-flex-2 .wrapper-content-3 {
+    padding: 0 7px; }
+
+  .text-11 .inp-1 {
+    margin: 0 auto; }
+
+  .wrapper-flex-4 a {
+    max-width: 50px; } }
 
 /*# sourceMappingURL=media.css.map */
