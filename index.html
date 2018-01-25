@@ -10,6 +10,7 @@
     <link href="css/styleL.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/media.css" rel="stylesheet">  
+	
 </head>
 
 <body> 
@@ -62,8 +63,8 @@
                 </div>
                 <form class="text-11">
                     <div class="inp-1">
-                        <input type="text" placeholder="from">
-                        <input type="text" placeholder="to">
+                        <input id="locationTextFieldFrom" type="text" placeholder="from">
+                        <input id="locationTextFieldTo" type="text" placeholder="to">
                     </div>
                     <div class="inp-2">
                        <span>€</span>
@@ -371,7 +372,7 @@
                 </div>
                 <form class="text-11">
                     <div class="inp-1">
-                        <input type="text" placeholder="from">
+                        <input id="pac-input" type="text" placeholder="from">
                         <input type="text" placeholder="to">
                     </div>
                     <div class="inp-2">
@@ -481,17 +482,22 @@
     
     
     
+     
     
     
     
     
     
-    
-    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp58k1qq07IvRWLoQG5QERa1i8JSolVb4&libraries=places"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/scripts.js"></script>
+	 <script src="js/autocomplete.js"></script>
+	
+	
+	
+	
 </body>
 
 </html>
