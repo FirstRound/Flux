@@ -73,7 +73,7 @@
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
-    background-position: top -140px center;
+    background-position: center center;
     .text-1{
         h3{
             padding-top: 195px;
@@ -113,12 +113,21 @@
     .text-12{
         display: flex;
         justify-content: center;
+        align-items: center;
+        padding-top: 200px;
+        padding-bottom: 70px;
+        img{
+            &:first-child{
+                margin-right: 20px;
+                
+            }
+             &:last-child{
+                margin-left: 20px;
+                
+            }
+        }
     }
-    .img-padding{
-        padding-right: 45px;
-        padding-bottom: 75px;
-        padding-top: 350px;
-    }
+    
 }
 .img-mar{
     margin-bottom: 15px;
@@ -401,29 +410,42 @@
         .wrapper-app-1{
             display: flex;
             justify-content: center;
-            .app-store{
-                p{
+            .my-store{
+                a{
+                    background-color: #f2f5f7;
                     font-size: 16px;
                     color: #32323c;
                     font-family: "merriwether-regular";
-                    padding: 15px 15px;
+                    padding: 15px;
                     border-radius: 8px;
-                    background-color: #f2f5f7;
-                    max-width: 320px;
-                    margin-right: 25px;
+                    background-repeat: no-repeat;
+                    background-position: center left 15px;
+                    width: 320px;
+                    display: block;
+                    text-align: right;
+                    margin-right: 10px;
                 }
-            }
-            .google-play{
-                p{
-                    font-size: 16px;
-                    color: #32323c;
-                    font-family: "merriwether-regular";
-                    padding: 15px 15px;
-                    border-radius: 8px;
-                    background-color: #f2f5f7;
-                    max-width: 320px;
+                &:last-child{
+                    a{
+                    margin-left: 10px;
+                    margin-right: 0;
+                    }
                 }
+                &.st-1{
+                    a{
+                        background-image: url(../img/apple.png);
+                        }
+                    
+                }
+                &.st-2{
+                    a{
+                        background-image: url(../img/googleplay.png);
+                    }
+                    
+                }
+               
             }
+           
         }
     }
 }
